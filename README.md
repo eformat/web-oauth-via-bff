@@ -11,7 +11,7 @@ A `Backend for Frontend (BFF)` approach is used, in line with [best practices fo
 A modern evolution of Backend for Frontend is used, called the [Token Handler Pattern](https://curity.io/resources/learn/the-token-handler-pattern/).\
 The SPA uses a token handler provided by Curity (or a similar provider) to perform an API driven OAuth flow:
 
-![Logical Components](/code/spa/doc/logical-components.png)
+![Logical Components](code/spa/doc/logical-components.png)
 
 This provides the best separation of web and API concerns, to maintain all of the benefits of an SPA architecture:
 
@@ -63,7 +63,7 @@ cd deployment
 
 Then browse to http://www.example.com which first presents unauthenticated views:
 
-![Unauthenticated Views](/code/spa/doc/ui-unauthenticated.png)
+![Unauthenticated Views](code/spa/doc/ui-unauthenticated.png)
 
 Sign in with the following test user name and password:
 
@@ -71,7 +71,7 @@ Sign in with the following test user name and password:
 
 Verify that page reloads and multi tab browsing work in a user friendly manner:
 
-![Authenticated Views](/code/spa/doc/ui-authenticated.png)
+![Authenticated Views](code/spa/doc/ui-authenticated.png)
 
 The example SPA is developed using only simple React code.
 
@@ -79,11 +79,11 @@ The example SPA is developed using only simple React code.
 
 Use of secure cookies in the browser requires additional components, and the deployed system looks like this:
 
-![Deployed Components](/code/spa/doc/deployed-components.png)
+![Deployed Components](code/spa/doc/deployed-components.png)
 
 On a web developer's computer, the token handler is run via Docker, and updated local URLs are used:
 
-![Developer Setup](/code/spa/doc/web-developer-setup.png)
+![Developer Setup](code/spa/doc/web-developer-setup.png)
 
 Once the system is deployed you can also browse to these URLs:
 
